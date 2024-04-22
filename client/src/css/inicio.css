@@ -1,0 +1,205 @@
+.cont-inicio{
+    width: 100%;
+    height: 100vh;
+    max-height: 180vh;
+display: flex;
+flex-direction: row;
+}
+
+.header1{
+    height: 10vh;
+    text-align: center;
+    align-content: end;
+    font-size: 4vh;
+    border-bottom: 1px solid black;
+    
+
+}
+
+.header2{
+    height: 10vh;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+
+}
+
+.header2 button{
+    border-radius: 20px;
+}
+
+.part-1-inicio{
+    width: 30%;
+    height: 100vh;
+    border-right: 1px solid black;
+
+}
+
+.body-crear-notas{
+height: 80vh;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+}
+
+.notas{
+    height: 89vh;
+    display: flex;
+    flex-direction: row;
+
+  
+}
+
+.usuarios-c{
+    width:30%;
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    
+    border-right: 1px solid  black;
+    
+
+}
+
+.conectados{
+    height: 50vh;
+    width: 100%;
+
+
+}
+
+.usu-conectado{
+    max-width: auto;
+    height: 5vh;
+border-bottom: 0.3px solid rgba(0, 0, 0, 0.358);
+    display: flex;
+align-items: center;
+}
+
+.enviar{
+    max-width: auto;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+.enviar input{
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+}
+
+.chat{
+    height: 40vh;
+    width: 100%;
+    border-top: 0.5px solid black;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.chatt{
+    max-width: auto;
+    height: 35vh;
+    justify-content: start;
+    align-items: start;
+
+ 
+}
+
+.publicacion {
+    width: 70%;
+    height: 89vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+
+}
+
+.publicacion-tarea{
+    width: 65vh;
+    height: 30vh;
+    margin: 10px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.persona{
+width: 100%;
+height: 5vh;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.contenido{
+    width: 100%;
+    height: 25vh;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+.alineador{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.input-inicio{
+    width: 60%;
+    margin: 10px;
+    
+}
+
+.body-crear-notas textarea{
+    width: 60%;
+}
+.part-2-inicio{
+    width: 70%;
+    height: 100vh;
+
+}
+
+.mover-i{
+    display: flex;
+     flex-direction: row;
+     width: 100%;
+     align-items: start;
+     justify-content: center;
+     align-items: center;
+}
+
+
+.mover-i input{
+height: 5vh;
+border: none;
+outline: none;
+border-bottom: 0.5px solid black;
+}
+
+.mover-i button{
+    height: 5vh;
+    margin: 50px;
+    width: 30vh;
+    background-color: orange;
+    border-radius: 10px;
+    
+}
+
+.contenedor-act{
+    width: 50vh;
+    height: 10vh;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    justify-content: center;
+}
